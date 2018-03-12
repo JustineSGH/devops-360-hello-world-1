@@ -1,0 +1,7 @@
+# tasks file for hello-world
+-name: Install nginx
+    apt:
+        state: present
+        name: nginx
+        update_cache: yes
+
